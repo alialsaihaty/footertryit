@@ -1,0 +1,106 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.row {
+  margin: 0px;
+  padding: 0px;
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #5190e0;
+    border-top: 1px solid #b8b8bb;
+}
+
+.navbar.navbar-default.navbar-fixed-bottom {
+  background-color: #5190e0;
+}
+
+.li-col a {
+  color: #fff;
+  text-align: justify;
+  // font-family: Nunito !important;
+	font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.li-col{
+  color: #fff;
+  list-style-type: none;
+  text-align: justify;
+  font-size: 13px;
+	font-weight: 100;
+  letter-spacing: 1px;
+}
+
+#strong-style{
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-family: 'Nunito', sans-serif;
+}
+
+h4.h4-style {
+  text-align: justify;
+  margin-bottom: 20px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+ul.nav.nav-pills.nav-justified.li-col {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.navbar.navbar-default.navbar-fixed-bottom {
+  padding-top: 60px;
+}
+
+.col-lg-12 {
+  margin-bottom: 40px;
+}
+
+hr {
+  width: 113%;
+  margin-left: -70px;
+}
+
+img.tryit-lo {
+    width: 45%;
+    margin-top: 19px;
+}
+
+li.margin-li {
+    margin-left: 20px;
+}
+
+.col-md-5.margin-di {
+    margin-top: 35px;
+    margin-left: -90px;
+}
+
+
+.col-md-3.col-md-offset-2 {
+    padding-left: 60px;
+}
+
+h1 {
+	font-family: Nunito;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 100;
+	line-height: 14.3px;
+}
