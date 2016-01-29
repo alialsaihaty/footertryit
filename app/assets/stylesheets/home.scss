@@ -134,7 +134,7 @@ li.margin-li {
   .desktop {
     display: none;
   }
-  
+
   li#center {
     margin-top: 15px;
     text-align: center;
@@ -143,5 +143,48 @@ li.margin-li {
     width: 74%;
     margin: 0 auto;
   }
+}
 
+@media screen and (min-device-width : 375px) and (max-device-width : 667px) and (min-aspect-ratio: 667/375) {
+  hr {
+    width: 100%;
+    margin: 0 auto;
+  }
+  img.tryit-lo {
+    width: 30%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    // text-align: center;
+    display: table-cell;
+  }
+  .margin-li {
+    margin-right: 27px;
+    text-align: center;
+    // vertical-align: middle
+  }
+  .col-md-5.margin-di {
+    display: none;
+  }
+  .row.mobile {
+    display:block;
+  }
+  .div-left {
+    float: left;
+  }
+  .div-right {
+    float: right;
+  }
+  .desktop {
+    display: none;
+  }
+
+  li#center {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .inner {
+    width: 45%;
+    margin: 0 auto;
+  }
 }
