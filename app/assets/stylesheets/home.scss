@@ -73,8 +73,8 @@ ul.nav.nav-pills.nav-justified.li-col {
 }
 
 hr {
-  width: 113%;
-  margin-left: -70px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 img.tryit-lo {
@@ -96,11 +96,51 @@ li.margin-li {
     padding-left: 60px;
 }
 
-h1 {
-	font-family: Nunito;
-	font-size: 13px;
-	font-style: normal;
-	font-variant: normal;
-	font-weight: 100;
-	line-height: 14.3px;
+.row.mobile {
+  display: none;
+}
+
+
+@media screen and (min-width : 320px) and (max-width : 480px) and (orientation : portrait) {
+  hr {
+    width: 100%;
+    margin: 0 auto;
+  }
+  img.tryit-lo {
+    width: 30%;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    // text-align: center;
+    display: table-cell;
+  }
+  .margin-li {
+    margin-right: 27px;
+    text-align: center;
+    // vertical-align: middle
+  }
+  .col-md-5.margin-di {
+    display: none;
+  }
+  .row.mobile {
+    display:block;
+  }
+  .div-left {
+    float: left;
+  }
+  .div-right {
+    float: right;
+  }
+  .desktop {
+    display: none;
+  }
+  li#center {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .inner {
+    width: 58%;
+    margin: 0 auto;
+  }
+
 }
