@@ -18127,3 +18127,33 @@ Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bd
 
 
 Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-23 10:15:55 -0700
+
+
+Started GET "/" for ::1 at 2016-03-23 10:20:28 -0700
+Processing by HomeController#popup as HTML
+  Rendered home/popup.html.erb within layouts/application (321.5ms)
+Completed 200 OK in 390ms (Views: 379.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2016-03-23 10:20:29 -0700
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for ::1 at 2016-03-23 10:20:29 -0700
+
+
+Started GET "/assets/home.self-8b959e398af6fbe0c34574857e6bdec00aa9da2733a4efada6d0a5b0b0b8f9ab.css?body=1" for ::1 at 2016-03-23 10:20:29 -0700
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for ::1 at 2016-03-23 10:20:29 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2016-03-23 10:20:29 -0700
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-03-23 10:20:29 -0700
+
+
+Started GET "/assets/bootstrap_and_overrides.self-3e5dca3610db8c0a1f800fab29720d450d080b38aade39047218133fce787775.css?body=1" for ::1 at 2016-03-23 10:20:29 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2016-03-23 10:20:29 -0700
