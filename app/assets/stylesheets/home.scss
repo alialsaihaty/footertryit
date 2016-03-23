@@ -1,7 +1,7 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-@import url(https://fonts.googleapis.com/css?family=Nunito:400,300,700);
+@import url(https://fonts.googleapis.com/css?family=Nunito:400ra,300,700);
 
 * {
   margin: 0px;
@@ -69,7 +69,8 @@ ul.nav.nav-pills.nav-justified.li-col {
 }
 
 .col-lg-12 {
-  margin-bottom: 40px;
+  // margin-bottom: 40px;
+  text-align: center;
 }
 
 hr {
@@ -145,7 +146,7 @@ li.margin-li {
   }
 }
 
-@media screen and (min-device-width : 375px) and (max-device-width : 667px) and (min-aspect-ratio: 667/375) {
+@media screen and (min-device-width : 360px) and (max-device-width : 667px) and (min-aspect-ratio: 667/375) {
   hr {
     width: 100%;
     margin: 0 auto;
@@ -187,4 +188,150 @@ li.margin-li {
     width: 45%;
     margin: 0 auto;
   }
+}
+
+
+
+
+
+
+
+
+
+
+// popup
+.wrapper {
+    width: 769px;
+    margin: 0 auto;
+    margin-top: 12px;
+}
+input#mce-EMAIL {
+    width: 91px;
+    height: 21px;
+    border: 1px solid #4a90e2;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-left: 22px;
+    font-size: 12px;
+    padding-top: 2px;
+    font-family: 'Nunito', sans-serif;
+}
+input#mce-NAME {
+    width: 111px;
+    height: 21px;
+    border: 1px solid #4a90e2;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 12px;
+    padding-top: 2px;
+    font-family: 'Nunito', sans-serif;
+}
+input#mc-embedded-subscribe {
+    margin: 0;
+    width: 84px;
+    height: 21px;
+    background-color: #4a90e2;
+    border: none;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 12px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+}
+img.img-tryit {
+    margin: 90px auto auto;
+    display: block;
+    width: 8%;
+    margin: 90px auto 35px auto;
+}
+.fonts-cus {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+}
+h4#h4-14 {
+    font-size: 14px;
+    color: #777677;
+    letter-spacing: 0.9px;
+}
+h5#h5-12 {
+    font-size: 12px;
+    color: #9b9b9b;
+    letter-spacing: 0.8px;
+}
+
+#mc_embed_signup {
+  background:#fff;
+  clear:left;
+  font:14px Helvetica,Arial,sans-serif;
+}
+
+.left-p {
+    padding-right: 0;
+    padding-left: 43px;
+}
+.mid-p {
+  padding-right: 0;
+}
+.right-p {
+  padding-left: 9px;
+}
+h5#h5-spam {
+    margin-top: 30px;
+    font-size: 12px;
+    color: #9b9b9b;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+img.image-responsive.faces-img {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 35px;
+}
+.navbar.navbar-default.navbar-bottom {
+  background-color: #5190e0;
+  padding-top: 60px;
+}
+h4.h4-style2 {
+  margin-bottom: 20px;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+  font-size: 14px;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+#hr2 {
+    width: 209px;
+    margin: 60px auto 0 auto;
+}
+p.p-footer {
+    font-size: 12px;
+    color: #fff;
+    line-height: 13px;
+    letter-spacing: 0.8px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    margin-bottom: 20px;
+}
+ul.list {
+    width: 310px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+}
+p#p-last {
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Nunito', sans-serif;
+    margin-top: 12px;
+    font-weight: 100;
+    text-align: justify;
+    width: 310px;
+    margin: 13px auto 22px auto;
+    line-height: 13px;
+    letter-spacing: 0.7px;
+}
+a:link {
+    color: #fff;
+    text-decoration: underline;
 }
